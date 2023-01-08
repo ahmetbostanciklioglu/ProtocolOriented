@@ -4,6 +4,7 @@ Protocol Oriented Programming (POP)
 
 
 **Protocol Oriented:**
+```
 protocol ProtocolOriented {
     var protocolProperty: String { get set } // get -> read; set -> write
     func protocolFunction()
@@ -29,3 +30,4 @@ var protocolObject = protocolOrientedStruct(protocolProperty: "Ahmet")
 
 protocolObject.protocolFunction() 
 protocolObject.mutatingProtocolFunction(param: "Alli")
+```
